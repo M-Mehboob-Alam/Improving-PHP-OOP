@@ -8,4 +8,4 @@ class PositionedNamedArgument{
     }
 }
 $converter = new PositionedNamedArgument();
-echo $converter->prkToDollarConverter( "Rs." );
+echo $converter->prkToDollarConverter( symbol:"USD " );
